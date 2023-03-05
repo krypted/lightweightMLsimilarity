@@ -3,15 +3,18 @@ Lightweight python-based similarity and plagiarism checking flask app
 
 ## Cosine Similarity For plagiarism detection
 This code is a Flask web application that allows the user to upload two text files and calculates the similarity between them using cosine similarity. It then displays the similarity percentage and the most similar text.
-Libraries used:
-•	Flask: a micro web framework for building web applications using Python.
-•	numpy: a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
-•	pandas: a library for data manipulation and analysis.
-•	scikit-learn: a machine learning library for Python that provides tools for data analysis and modeling.
-•	pip install Flask
-•	pip install numpy
-•	pip install scikit-learn
-•	pip install pandas
+
+## Libraries used:
+* Flask: a micro web framework for building web applications using Python.
+* numpy: a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+* pandas: a library for data manipulation and analysis.
+* scikit-learn: a machine learning library for Python that provides tools for data analysis and modeling.
+
+To install the libraries, run:
+* pip3 install Flask
+*	pip3 install numpy
+*	pip3 install scikit-learn
+*	pip3 install pandas
 
 ## Functions:
 •	create_dataframe: creates a Pandas DataFrame from a matrix and a list of tokens.
