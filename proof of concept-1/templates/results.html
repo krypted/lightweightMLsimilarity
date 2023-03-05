@@ -1,0 +1,21 @@
+<!-- templates/results.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document Similarity Checker - Results</title>
+  </head>
+  <body>
+    <h1>Document Similarity Checker</h1>
+    <hr>
+    <h2>Results</h2>
+    <p>Similar text: {{ similar_text }}</p>
+    <p>Similarity percentage: {{ similarity_percentage }}</p>
+    {% if similarity_percentage >= threshold %}
+    <p style="color:green">The documents are similar</p>
+    {% else %}
+    <p style="color:red">The documents are dissimilar</p>
+    {% endif %}
+    <a href="/">Back to home</a>
+  </body>
+</html>
